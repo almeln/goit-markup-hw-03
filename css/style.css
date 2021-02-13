@@ -63,7 +63,7 @@
       padding-top: 24px;
   }
 
-  .link-nav {
+  .link {
       display: block;
   }
 
@@ -90,7 +90,7 @@
       margin-left: 50px;
   }
 
-  .site-nav .link-nav {
+  .site-nav .link {
       color: var(--dark-text);
       font-weight: 500;
       font-size: 14px;
@@ -98,9 +98,9 @@
       letter-spacing: 0.02em;
   }
 
-  .site-nav .link-nav:hover,
-  .site-nav .link-nav:focus,
-  .site-nav .link-nav.current {
+  .site-nav .link:hover,
+  .site-nav .link:focus,
+  .site-nav .link.current {
       color: var(--colorful-text);
   }
 
