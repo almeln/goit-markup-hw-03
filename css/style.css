@@ -42,6 +42,8 @@
 
   .logo {
       display: block;
+      padding-bottom: 25px;
+      padding-top: 24px;
 
       font-family: "Raleway", sans-serif;
       font-weight: 700;
@@ -59,8 +61,7 @@
   .main-nav {
       display: flex;
       align-items: center;
-      padding-bottom: 25px;
-      padding-top: 24px;
+
   }
 
   .link {
@@ -91,6 +92,9 @@
   }
 
   .site-nav .link {
+      padding-bottom: 32px;
+      padding-top: 32px;
+
       color: var(--dark-text);
       font-weight: 500;
       font-size: 14px;
@@ -105,6 +109,10 @@
   }
 
   .contact-link {
+      display: block;
+      padding-bottom: 32px;
+      padding-top: 32px;
+
       color: var(--main-text);
       font-weight: 500;
       font-size: 14px;
@@ -144,18 +152,17 @@
   }
 
   .hero {
-    margin-bottom: 94px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
     background-color: var(--back-dark);
     color: var(--light-text);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
   }
 
   .hero-title {
     margin-top: 0;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
     
     font-weight: 900;
     font-size: 44px;
@@ -166,7 +173,12 @@
 
   /* Особенности */
 
-  .features {
+  .section-features {
+    padding-bottom: 94px;
+    padding-top: 94px;
+ }
+ 
+ .features {
     display: flex;
     justify-content: space-between;
   }
@@ -196,11 +208,11 @@
 
   /* Секции */
 
-  .section {
-      margin-bottom: 94px;
-  }
+  .section-works {
+    padding-bottom: 94px;
+ }
 
-  .section-title {
+ .section-title {
       margin-top: 0;
       margin-bottom: 50px;
 
@@ -235,9 +247,13 @@
       border-radius: 0px 0px 4px 4px;
   }
 
+  .team-members {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
   .team-member {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin: 0 0 9px 0;
 
     color: var(--dark-text);
     font-weight: 500;
@@ -246,8 +262,7 @@
   }
 
   .position {
-      margin-top: 0;
-      margin-bottom: 30px;
+      margin: 0;
 
       font-size: 16px;
       line-height: 1.2;
@@ -256,8 +271,8 @@
   /* Портфолио */
 
   .portfolio {
-      margin-top: 94px;
-      margin-bottom: 94px;
+      padding-top: 94px;
+      padding-bottom: 94px;
   }
   
   .portfolio-nav {
@@ -318,7 +333,7 @@
   }
 
   .card-content {
-      margin: 20px 24px;
+      padding: 20px 24px;
   }
 
   .portfolio-title {
