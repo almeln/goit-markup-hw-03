@@ -248,8 +248,13 @@
   }
 
   .team-members {
+      width: 270px;
       padding-top: 30px;
       padding-bottom: 30px;
+      padding-right: 59px;
+      padding-left: 60px;
+      text-align: center;
+
   }
 
   .team-member {
@@ -369,6 +374,8 @@
   .footer {
       display: inline-block;
       margin-bottom: 20px;
+      padding-top: 0;
+      padding-bottom: 0;
   }
 
   .white-logo {
